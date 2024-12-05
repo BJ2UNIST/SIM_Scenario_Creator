@@ -8,7 +8,7 @@ const ConnectionItem = new Schema({
   label: String,
 });
 
-// 커넥션 정보 구분
+// 커넥션 정보 구분 (Connection Schema)
 // mapId + nodeId + projectId + envId
 
 const ConnectionSchema = new Schema(
