@@ -29,4 +29,3 @@ const SignalSchema = new Schema(
 SignalSchema.index({ mapId: 1, projectId: 1, envId: 1, nodeId: 1 });
 
 export const Signal = model("Signal", SignalSchema);
-
